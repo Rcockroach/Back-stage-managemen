@@ -1,0 +1,57 @@
+body,
+input,
+button,
+form,
+p,
+a,
+figcaption,
+figure {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+  border: none;
+}
+input {
+  outline: none;
+}
+ul,
+dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+dd {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: normal;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+em,
+i,
+dfn {
+  font-style: normal;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+.clearFix {
+  *zoom: 1;
+}
+.clearFix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
